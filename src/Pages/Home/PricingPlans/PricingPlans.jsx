@@ -3,8 +3,8 @@ import { TiTick } from 'react-icons/ti';
 
 const PricingPlans = () => {
     return (
-        <div className="p-4">
-            <h2 className="text-2xl font-bold mb-6 text-center">Pricing & Plans</h2>
+        <div className="p-4 mb-10">
+            <h2 className="text-3xl font-bold mb-6 text-center">Pricing & Plans</h2>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                 <div className="bg-[#1A1919]  rounded-lg p-6">
                     <div>

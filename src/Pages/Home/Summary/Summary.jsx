@@ -2,8 +2,8 @@ import React from 'react';
 
 const Summary = () => {
     return (
-        <div className="p-4">
-            <h2 className="text-2xl font-bold mb-8 text-center">Summary</h2>
+        <div className="p-4 mb-10">
+            <h2 className="text-3xl font-bold mb-8 text-center">Summary</h2>
             <div className='bg-[#1A1919]'>
                 <div className="rounded-lg p-6">
                     <h1 className="text-xl font-bold mb-8">Which platform is the most affordable?</h1>

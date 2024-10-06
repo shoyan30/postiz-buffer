@@ -1,9 +1,9 @@
 import React from 'react';
-import postiz from '../../assets/logo/logo.jpg'
+import postiz from '../../../assets/logo/postiz.png'
 const PlatFormComparison = () => {
     return (
-        <div className="p-4 relative">
-            <h2 className="text-2xl font-bold mb-6 text-center">Platform Comparison</h2>
+        <div className="p-4 mb-10 relative">
+            <h2 className="text-3xl font-bold mb-6 text-center">Platform Comparison</h2>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6 relative">
                 <div className="bg-gradient-to-r from-[#24005E] to-[#5608D5] border rounded-lg p-6">
                     <img src="" alt="" className="mb-4 mx-auto" />

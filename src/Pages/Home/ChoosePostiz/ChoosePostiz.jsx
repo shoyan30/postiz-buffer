@@ -1,5 +1,6 @@
 import React from 'react';
-
+import line from '../../../assets/logo/choos logo.png'
+import { PiCaretDoubleRightBold } from 'react-icons/pi';
 const ChoosePostiz = () => {
     return (
         <div className='flex flex-col md:flex-row items-center justify-between bg-[#3C1AC9] h-auto sm:h-[282px] lg:h-[282px] mt-4 rounded-lg'>
@@ -12,8 +13,9 @@ const ChoosePostiz = () => {
                 </p>
             </div>
             <div className='p-4 md:mr-24 flex items-center'>
-                <button className='bg-white text-[#3C1AC9] font-semibold py-2 px-6 rounded-2xl w-full md:w-auto'>
-                    Get Started
+                <img className='mr-8 mt-8' src={line} alt="" />
+                <button className="btn rounded-2xl">
+                    Get Started<PiCaretDoubleRightBold />
                 </button>
             </div>
         </div>

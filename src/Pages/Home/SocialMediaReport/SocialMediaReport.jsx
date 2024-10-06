@@ -2,10 +2,10 @@ import React from 'react';
 import { RxCross2 } from 'react-icons/rx';
 import { TiTick } from 'react-icons/ti';
 
-const SocialMedia = () => {
+const SocialMediaReport = () => {
     return (
-        <div className="p-4">
-            <h2 className="text-2xl font-bold mb-6 text-center">Social Media Scheduling & Publishing</h2>
+        <div className="p-4 mb-10">
+            <h2 className="text-3xl font-bold mb-6 text-center">Social Media Analytics & Reporting</h2>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6 relative">
                 <div className=" bg-[#1A1919] rounded-lg p-6">
 
@@ -22,21 +22,7 @@ const SocialMedia = () => {
                             <p className="flex items-center">
                                 <TiTick className="text-green-500 mr-1" />Tiwtter
                             </p>
-                            <p className="flex items-center">
-                                <TiTick className="text-green-500 mr-1" />Linkedin
-                            </p>
-                            <p className="flex items-center">
-                                <TiTick className="text-green-500 mr-1" />GoogleMyBusiness
-                            </p>
-                            <p className="flex items-center">
-                                <TiTick className="text-green-500 mr-1" />TikTok
-                            </p>
-                            <p className="flex items-center">
-                                <TiTick className="text-green-500 mr-1" />Interest
-                            </p>
-                            <p className="flex items-center">
-                                <RxCross2 className="text-red-500 text-bold mr-1" />YouTube
-                            </p>
+                           
                         </ul>
                     </div>
                     <div>
@@ -50,15 +36,6 @@ const SocialMedia = () => {
                             </p>
                             <p className="flex items-center">
                                 <TiTick className="text-green-500 mr-1" />Save as Draft
-                            </p>
-                            <p className="flex items-center">
-                                <TiTick className="text-green-500 mr-1" />Drag & Drop
-                            </p>
-                            <p className="flex items-center">
-                                <TiTick className="text-green-500 mr-1" />Post Review
-                            </p>
-                            <p className="flex items-center">
-                                <TiTick className="text-green-500 mr-1" />Images Cropping
                             </p>
                             
                         </ul>
@@ -87,12 +64,7 @@ const SocialMedia = () => {
                             <p className="flex items-center">
                                 <TiTick className="text-green-500 mr-1" />Week
                             </p>
-                            <p className="flex items-center">
-                                <TiTick className="text-green-500 mr-1" />Month
-                            </p>
-                            <p className="flex items-center">
-                                <TiTick className="text-green-500 mr-1" />Year
-                            </p>
+                            
                             
                         </ul>
                     </div>
@@ -114,21 +86,8 @@ const SocialMedia = () => {
                             <p className="flex items-center">
                                 <TiTick className="text-green-500 mr-1" />Tiwtter
                             </p>
-                            <p className="flex items-center">
-                                <TiTick className="text-green-500 mr-1" />Linkedin
-                            </p>
-                            <p className="flex items-center">
-                                <TiTick className="text-green-500 mr-1" />GoogleMyBusiness
-                            </p>
-                            <p className="flex items-center">
-                                <TiTick className="text-green-500 mr-1" />TikTok
-                            </p>
-                            <p className="flex items-center">
-                                <TiTick className="text-green-500 mr-1" />Interest
-                            </p>
-                            <p className="flex items-center">
-                                <RxCross2 className="text-red-500 text-bold mr-1" />YouTube
-                            </p>
+                            
+                           
                         </ul>
                     </div>
                     <div>
@@ -143,15 +102,7 @@ const SocialMedia = () => {
                             <p className="flex items-center">
                                 <TiTick className="text-green-500 mr-1" />Save as Draft
                             </p>
-                            <p className="flex items-center">
-                                <RxCross2 className="text-red-500 mr-1" />Drag & Drop
-                            </p>
-                            <p className="flex items-center">
-                                <TiTick className="text-green-500 mr-1" />Post Review
-                            </p>
-                            <p className="flex items-center">
-                                <RxCross2 className="text-red-500 mr-1" />Images Cropping
-                            </p>
+                           
                             
                         </ul>
                     </div>
@@ -194,4 +145,4 @@ const SocialMedia = () => {
     );
 };
 
-export default SocialMedia;
+export default SocialMediaReport;
